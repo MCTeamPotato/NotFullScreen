@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.teampotato.notfullscreen.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "NotFullScreen.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
